@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f4f2ed">
+  <meta name="description" content="Selected work by Ihor Hrudnyy: founder of Italeen, builder of a multi-producer WooCommerce engine and the Artisello mobile and trade products.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ihor Hrudnyy — Founder / Operator / Builder">
+  <meta property="og:description" content="I build software for problems I have had to operate myself. See the work behind Italeen and Artisello.">
+  <title>Ihor Hrudnyy — Founder, Operator, Builder</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <style>
+    :root{--bg:#f4f2ed;--paper:#fffefa;--ink:#16231f;--muted:#5d6b64;--line:#d9ded6;--accent:#155c48;--accent-weak:#e0ece5;--dark:#182920;--light:#e9f3e9;--radius:17px;color-scheme:light}
+    *,*:before,*:after{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:inherit;text-decoration-color:#89ad9a;text-underline-offset:4px}
+    a:hover{text-decoration-color:currentColor}
+    a:focus-visible{outline:3px solid #0e9470;outline-offset:4px;border-radius:2px}
+    .shell{width:min(1120px,calc(100% - 44px));margin-inline:auto}
+    .nav{position:relative;border-bottom:1px solid var(--line);background:rgba(244,242,237,.96)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:20px 0}
+    .wordmark{display:flex;align-items:center;gap:12px;text-decoration:none;font-weight:750;letter-spacing:-.025em}
+    .monogram{display:inline-grid;place-items:center;width:36px;height:36px;background:var(--ink);color:#fff;border-radius:10px;font-size:13px;letter-spacing:.03em}
+    .nav-links{display:flex;align-items:center;flex-wrap:wrap;gap:26px;color:var(--muted);font-size:13px;font-weight:650}
+    .nav-links a{text-decoration:none}.nav-links a:hover{color:var(--accent)}
+    .hero{padding:94px 0 82px;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(260px,.7fr);gap:65px;align-items:center}
+    .eyebrow{font-size:11px;font-weight:850;letter-spacing:.2em;text-transform:uppercase;color:var(--accent)}
+    h1,h2,h3,p{margin-top:0}
+    h1{font-size:clamp(49px,7vw,83px);letter-spacing:-.077em;line-height:1.035;font-weight:780;margin:22px 0 24px;max-width:850px}
+    .hero p{max-width:630px;color:var(--muted);font-size:18px}
+    .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 18px;text-decoration:none;border-radius:9px;font-size:13px;font-weight:750;border:1px solid var(--ink);transition:transform .2s,background .2s,color .2s}
+    .button:hover{transform:translateY(-2px)}
+    .button.primary{background:var(--ink);color:#fff}.button.secondary{background:transparent;color:var(--ink)}
+    .hero-aside{border-radius:18px;background:var(--dark);color:var(--light);padding:32px;box-shadow:0 15px 35px rgba(21,40,27,.08)}
+    .hero-aside .eyebrow{color:#9bcbb2}
+    .hero-aside h2{font-size:25px;line-height:1.26;letter-spacing:-.035em;margin:14px 0 21px}
+    .aside-step{padding:16px 0;border-top:1px solid #3c5045;display:flex;gap:16px}
+    .aside-step span{color:#9bcbb2;font-size:11px;font-weight:850;line-height:1.9}
+    .aside-step p{margin:0;color:#d8e1d9;font-size:14px;line-height:1.5}
+    .rail{border-block:1px solid var(--line);background:#ecefe8}
+    .rail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
+    .rail-grid>div{padding:25px 30px 25px 0}
+    .rail-grid strong{display:block;font-size:14px;letter-spacing:-.015em}
+    .rail-grid span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+    section.main{padding:96px 0 0}
+    .section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}
+    .section-heading h2{font-size:clamp(32px,4vw,51px);line-height:1.1;letter-spacing:-.06em;margin:8px 0 0}
+    .section-heading p{max-width:360px;margin:0;color:var(--muted);font-size:14px}
+    .projects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .project{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:31px;display:flex;flex-direction:column;min-height:307px}
+    .project-top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:32px}
+    .num{font-size:12px;letter-spacing:.08em;font-weight:750;color:var(--muted)}
+    .status{font-size:11px;font-weight:750;border-radius:100px;padding:6px 11px;background:#e9eee9;color:#31533f}
+    .status.live{background:#deeee4;color:#155b3b}.status.pilot{background:#f0eada;color:#806127}
+    .project h3{font-size:27px;line-height:1.15;letter-spacing:-.045em;margin:0 0 10px}
+    .project p{font-size:14px;color:var(--muted);max-width:440px}
+    .project .links{display:flex;flex-wrap:wrap;gap:22px;margin-top:auto;padding-top:23px}
+    .project .links a{font-size:13px;font-weight:800}
+    .detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin-top:28px}
+    .quiet{font-size:14px;color:var(--muted)}
+    .detail-grid h3{font-size:24px;letter-spacing:-.045em;margin:11px 0 13px}
+    .steps{margin:0;padding:0;list-style:none}
+    .steps li{display:flex;gap:18px;padding:13px 0;border-top:1px solid var(--line);font-size:14px}
+    .steps b{font-size:11px;color:var(--accent);letter-spacing:.08em}
+    .architecture{margin-top:30px;padding:29px;background:#e8ede6;border:1px solid #d4ddd2;border-radius:var(--radius)}
+    .arch-line{display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap}
+    .arch-node{font-size:12px;text-align:center;background:#fffefa;border:1px solid #ccd5ca;border-radius:8px;padding:12px 15px;min-width:150px;font-weight:700}
+    .arch-arrow{color:var(--accent);font-size:20px}
+    .architecture small{display:block;margin-top:19px;color:var(--muted);text-align:center;font-size:11px}
+    .outside{display:grid;grid-template-columns:1.15fr .85fr;gap:16px}
+    .outside article{background:#e8ece6;border:1px solid var(--line);padding:30px;border-radius:var(--radius)}
+    .outside h3{font-size:23px;line-height:1.2;letter-spacing:-.04em;margin:15px 0 14px}
+    .outside p{font-size:14px;color:#4e6357}
+    .note{margin:96px 0 0;background:var(--dark);color:#fff;padding:42px;border-radius:var(--radius);display:grid;grid-template-columns:1fr 1fr;gap:30px}
+    .note .eyebrow{color:#a5d6b7}
+    .note h2{font-size:32px;line-height:1.18;letter-spacing:-.055em;margin:12px 0 0}
+    .note p{color:#d0ded2;font-size:14px;margin:0}
+    .note a{color:#c2e3cb}
+    footer{padding:35px 0 55px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:20px;color:var(--muted);font-size:12px}
+    footer a{margin-left:18px}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;gap:28px;padding:60px 0}.hero-aside{max-width:none}.rail-grid{grid-template-columns:1fr}.rail-grid>div{border-bottom:1px solid var(--line);padding:15px 0}.projects,.detail-grid,.outside,.note{grid-template-columns:1fr}section.main{padding-top:67px}.section-heading{display:block}.section-heading p{margin-top:15px}.note{margin-top:67px}}
+    @media(max-width:480px){.shell{width:min(100% - 30px,1120px)}.nav-links{gap:12px}.nav-links a:first-child{display:none}h1{font-size:47px}.hero p{font-size:16px}.project{padding:24px;min-height:285px}.arch-node{width:100%}.arch-arrow{transform:rotate(90deg)}.note{padding:29px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  </style>
+</head>
+<body>
+  <header class="nav">
+    <div class="shell nav-inner">
+      <a class="wordmark" href="#top" aria-label="Ihor Hrudnyy — top"><span class="monogram" aria-hidden="true">IH</span><span>Ihor Hrudnyy</span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#work">Selected work</a><a href="#approach">Approach</a><a href="#beyond">Beyond software</a><a href="https://github.com/Artisello/showcase">GitHub ↗</a></nav>
+    </div>
+  </header>
+  <main id="top">
+    <div class="shell">
+      <section class="hero" aria-labelledby="hero-title">
+        <div>
+          <div class="eyebrow">Founder / Operator / Builder</div>
+          <h1 id="hero-title">I build the systems behind the business.</h1>
+          <p>I founded Italeen to sell food from independent Italian artisans. Then I built software to handle the operational problems that came with it. That experience now informs my work on Artisello.</p>
+          <div class="actions"><a class="button primary" href="#work">Explore the work <span aria-hidden="true">↘</span></a><a class="button secondary" href="https://italeen.com" target="_blank" rel="noopener noreferrer">Visit Italeen <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <aside class="hero-aside" aria-label="The operational insight">
+          <div class="eyebrow">The starting point</div>
+          <h2>Real customers. Different producers. One checkout.</h2>
+          <div class="aside-step"><span>01</span><p>The products remain at the artisan's premises until prepared.</p></div>
+          <div class="aside-step"><span>02</span><p>One basket can become multiple shipments, costs and dispatch timelines.</p></div>
+          <div class="aside-step"><span>03</span><p>I built custom commerce and supplier tools around those constraints.</p></div>
+        </aside>
+      </section>
+    </div>
+
+    <div class="rail" aria-label="Quick facts">
+      <div class="shell rail-grid">
+        <div><strong>Operating e-commerce business</strong><span>Italeen · Italian artisan products</span></div>
+        <div><strong>Original WooCommerce infrastructure</strong><span>Shipping · VAT · food facts · supplier tools</span></div>
+        <div><strong>Public Android application</strong><span>Artisello · food discovery</span></div>
+      </div>
+    </div>
+
+    <section class="main shell" id="work" aria-labelledby="work-title">
+      <div class="section-heading">
+        <div><span class="eyebrow">01 / Selected work</span><h2 id="work-title">Built from the problem up.</h2></div>
+        <p>Separate projects, separate stages of maturity. No inflated traction and no pretending private source code is open source.</p>
+      </div>
+      <div class="projects">
+        <article class="project">
+          <div class="project-top"><span class="num">PROJECT 01</span><span class="status live">Live business</span></div>
+          <h3>Italeen</h3>
+          <p>Founded and operated an online store connecting customers with independent artisan producers. Built the operating model, supplier relationships, technology, marketing and logistics; secured Invitalia funding and a sponsored Kilometro Rosso workspace.</p>
+          <div class="links"><a href="https://italeen.com" target="_blank" rel="noopener noreferrer">Live business ↗</a><a href="https://github.com/Artisello/showcase/blob/main/projects/italeen.md">Case study ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="num">PROJECT 02</span><span class="status">Private codebase</span></div>
+          <h3>Commerce engine</h3>
+          <p>A focused WooCommerce stack for producer-specific parcels, proportional shipping VAT, prices per kilogram or litre, and a fast accessible storefront. Built to keep money and order data authoritative in WooCommerce.</p>
+          <div class="links"><a href="https://github.com/Artisello/showcase/blob/main/projects/commerce-stack.md">Architecture & decisions ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="num">PROJECT 03</span><span class="status pilot">Pilot-stage</span></div>
+          <h3>Supplier Portal</h3>
+          <p>A simpler way for independent suppliers to confirm orders and report exceptions, replacing repeated manual follow-up. Narrow actions, attributable events and an intentionally limited scope.</p>
+          <div class="links"><a href="https://github.com/Artisello/showcase/blob/main/projects/supplier-portal.md">Read the case study ↗</a></div>
+        </article>
+        <article class="project">
+          <div class="project-top"><span class="num">PROJECT 04</span><span class="status live">App published</span></div>
+          <h3>Artisello</h3>
+          <p>A mobile app for discovering and recording authentic Italian food experiences, backed by a location-aware data platform. Separately, an emerging B2B Trade product explores trustworthy, private buyer–supplier workflows.</p>
+          <div class="links"><a href="https://play.google.com/store/apps/details?id=com.artisello.app" target="_blank" rel="noopener noreferrer">Google Play ↗</a><a href="https://github.com/Artisello/showcase/blob/main/projects/artisello.md">Technical scope ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="main shell" id="approach" aria-labelledby="approach-title">
+      <div class="section-heading"><div><span class="eyebrow">02 / Engineering approach</span><h2 id="approach-title">Complexity belongs in the right place.</h2></div><p>These boundaries matter when software has to process real orders—not only look good in a demo.</p></div>
+      <div class="detail-grid">
+        <div>
+          <h3>One responsibility per component.</h3>
+          <p class="quiet">I prefer small, explicit ownership boundaries over a large plugin that silently changes prices, shipments and presentation at once.</p>
+        </div>
+        <ol class="steps">
+          <li><b>01</b><span>WooCommerce owns prices, tax configuration and order lifecycle.</span></li>
+          <li><b>02</b><span>Multi-Artisan Shipping defines producer packages.</span></li>
+          <li><b>03</b><span>Selected shipping methods set commercial shipping charges.</span></li>
+          <li><b>04</b><span>Proportional Shipping Tax allocates VAT within each package.</span></li>
+          <li><b>05</b><span>Product Compliance owns unit prices; the theme owns presentation.</span></li>
+        </ol>
+      </div>
+      <div class="architecture" aria-label="Simplified commerce architecture diagram">
+        <div class="arch-line"><div class="arch-node">Cart & checkout</div><span class="arch-arrow" aria-hidden="true">→</span><div class="arch-node">WooCommerce</div><span class="arch-arrow" aria-hidden="true">→</span><div class="arch-node">Producer packages</div><span class="arch-arrow" aria-hidden="true">→</span><div class="arch-node">Shipping + VAT</div></div>
+        <small>Illustrative high-level flow · See the case study for component boundaries and deployment caveats.</small>
+      </div>
+    </section>
+
+    <section class="main shell" id="beyond" aria-labelledby="beyond-title">
+      <div class="section-heading"><div><span class="eyebrow">03 / Beyond software</span><h2 id="beyond-title">I also build with people.</h2></div></div>
+      <div class="outside">
+        <article><span class="eyebrow">Community / Sport</span><h3>Co-founded a competitive swimming club.</h3><p>Helped establish Dinamic Nuoto Vallecamonica ASD with my former coach. In the early days I was sometimes the only swimmer who turned up. As the club grew I took on coaching responsibilities, including helping train Giuseppe Romele before his later Paralympic medals and world titles in another sport.</p><a href="https://github.com/Artisello/showcase/blob/main/projects/beyond-software.md">Full context ↗</a></article>
+        <article><span class="eyebrow">Volunteer work</span><h3>Local journalism.</h3><p>Contributed reporting, editing and publishing work to Giornale della Valcamonica. It taught me to turn incomplete information into something understandable and useful for a community.</p><a href="https://github.com/Artisello/showcase/blob/main/projects/beyond-software.md">Read more ↗</a></article>
+      </div>
+      <div class="note">
+        <div><span class="eyebrow">About this portfolio</span><h2>Evidence beats adjectives.</h2></div>
+        <div><p>Italeen is a publicly accessible business; the Artisello app has a public store listing. The original technical repositories are private. Supplier Portal, Trade and the standalone API are described at their actual development stage—not as fully launched products.</p><p style="margin-top:16px"><a href="https://github.com/Artisello/showcase/blob/main/EVIDENCE.md">Evidence & disclosure policy ↗</a> &nbsp; · &nbsp; <a href="https://github.com/Artisello/showcase/blob/main/REVIEWER_GUIDE.md">Reviewer guide ↗</a></p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="shell">
+    <span>© 2026 Ihor Hrudnyy · Built with plain HTML and CSS, no trackers.</span>
+    <span><a href="https://github.com/Artisello">GitHub ↗</a><a href="https://italeen.com">Italeen ↗</a></span>
+  </footer>
+</body>
+</html>
