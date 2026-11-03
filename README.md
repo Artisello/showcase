@@ -1,12 +1,12 @@
 # Ihor Hrudnyy
 
-**I built the business. Then the software it needed.**
+**I started with a business. Then built tools to run it.**
 
 Founder of [Italeen](https://italeen.com). Building [Artisello](https://play.google.com/store/apps/details?id=com.artisello.app).
 
 ### [→ View the portfolio](https://artisello.github.io/showcase/)
 
-I run a real artisan-food commerce business. That meant handling supplier-specific parcels, VAT, unit pricing, and the operational headaches behind one checkout. I built focused WooCommerce software around those problems.
+I run a real artisan-food commerce business. That meant handling supplier-specific parcels, VAT, unit pricing, and the operational headaches behind one checkout. I started developing focused WooCommerce tools to address those problems.
 
 | Built | Why it matters | Evidence |
 | --- | --- | --- |
