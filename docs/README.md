@@ -1,25 +1,19 @@
-# Static portfolio website
+# Public portfolio
 
-The standalone website lives in [index.html](index.html). It is designed to complement—not replace—the GitHub README and public project case studies.
+Live: **https://artisello.github.io/showcase/**
 
-- Static HTML and CSS, no JavaScript framework, npm installation, build tools, trackers or external fonts.
-- Responsive layout, semantic landmarks, visible keyboard focus and reduced-motion support.
-- No customer data or private repository content.
-- All reviewer links point to public pages or public case studies.
+Source: [index.html](index.html) and [assets/site.css](assets/site.css). The layout uses native HTML and CSS, with no frameworks, runtime JavaScript, external fonts or tracking scripts.
 
-## Publish with GitHub Pages
-
-The site files are **prepared**, but the existence of the files does not guarantee that GitHub Pages has been enabled.
-
-1. Open **Settings → Pages** in this repository.
-2. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-3. Select branch **main** and folder **/docs**, then save.
-4. Wait for GitHub to confirm the actual published URL and open it to verify the page.
-
-GitHub Pages may use a Pages deployment workflow even when the source is a branch. Do not add a separate custom CI workflow just to publish this simple static website.
-
-Until publication is verified, use the [public README](../README.md) as the canonical shareable link.
+The public website is published from branch **main** and folder **/docs** through GitHub Pages.
 
 ## Editing
 
-Update claims in the matching [project case study](../projects/) and [evidence policy](../EVIDENCE.md) before changing marketing copy on this page. Do not introduce unverified traction numbers, deployment claims or private details.
+- Keep headlines short, direct and evidence-based.
+- Record deeper technical detail in [project case studies](../projects/) rather than bloating the landing page.
+- Clearly distinguish live businesses, publicly distributed apps, private codebases and pilots.
+- Never add secrets, private orders, confidential supplier/customer records or unsupported numerical traction claims.
+- Maintain keyboard focus, reduced-motion preferences, viewport responsiveness and readable contrast.
+
+## Publication
+
+Changes pushed to main are published by the configured GitHub Pages workflow. Verify the public URL after merges; a merged commit alone is not proof of deployment.

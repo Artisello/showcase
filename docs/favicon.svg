@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
 <title>Ihor Hrudnyy</title>
-<rect x="2" y="2" width="60" height="60" rx="13" fill="#16231f"/>
-<path d="M21 18v28M21 32h22M43 18v28" stroke="#e0f0de" stroke-width="6" stroke-linecap="square"/>
+<rect width="64" height="64" rx="13" fill="#0c1210"/>
+<path d="M18 18v28M18 32h27M45 18v28" stroke="#f1f3ec" stroke-width="6" stroke-linecap="square"/>
+<circle cx="50" cy="49" r="5" fill="#d5f65c"/>
 </svg>
