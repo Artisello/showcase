@@ -6,6 +6,8 @@ Source: [index.html](index.html) and [assets/site.css](assets/site.css). The lay
 
 The public website is published from branch **main** and folder **/docs** through GitHub Pages.
 
+Design decisions: [Master design system](../design-system/ihor-showcase/MASTER.md) · [UI/UX audit](UI_AUDIT.md)
+
 ## Editing
 
 - Keep headlines short, direct and evidence-based.
