@@ -19,6 +19,8 @@ Beyond software: co-founded [Dinamic Nuoto Vallecamonica ASD](projects/beyond-so
 
 **For reviewers:** [60-second guide](REVIEWER_GUIDE.md) · [Evidence & disclosure policy](EVIDENCE.md)
 
+**Website quality:** [Design system](design-system/ihor-showcase/MASTER.md) · [UI/UX audit and manual checklist](docs/UI_AUDIT.md)
+
 **Source-code status:** Most original project repositories are private. This public repository contains case studies and an independently hosted static website, **not** the original private code. An implemented capability is not automatically a verified production deployment. No non-public financials, customer records, producer contracts or secrets are published here.
 
 ---
